@@ -37,7 +37,7 @@
                 <div class="right">
                          <div>
                                <div>
-                                    <h3><?php echo $row['title'];?></h2>
+                                    <h3><?php echo $row['title'];?></h3>
                                     <p class="ziti">
                                         <?php
                                             echo $row['content'];
