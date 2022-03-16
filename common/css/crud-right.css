@@ -1,0 +1,20 @@
+
+/* 右边部分*/
+.right{
+    float:left;
+    width: 800px;
+    height:500px;
+    background-color: rgb(253, 250, 250);
+    box-shadow: 5px 5px 5px #888888;
+    margin-left:50px;
+    opacity: 0.5;
+  }
+.right>div{
+    padding-top: 20px;
+    padding-left:20px;
+}
+.right>div>h3{
+      display: inline-block;
+      padding-left:20px;
+  }
+  

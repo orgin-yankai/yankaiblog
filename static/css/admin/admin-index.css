@@ -1,0 +1,64 @@
+
+
+/*左边部分*/
+.content{
+    margin:100px auto;
+    width: 1200px;
+}
+.left{
+    float:left;
+}
+.left>div{
+    width: 300px;
+    height:500px;
+    background-color: #fff;
+    border-color: aliceblue;
+    opacity: 0.5;
+}
+
+.content>.left>div>ul{
+    padding-left: 20px;
+}
+.content>.left>div>ul>li{
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom:20px;
+    border-bottom: 1px double  rgb(184, 180, 180);
+    width:250px;
+}
+.content>.left>div>ul>li>a{
+    text-decoration:none;
+    color:black;
+}
+.content>.left>div>ul>li>a:hover{
+    color:skyblue;
+}
+
+
+
+/* 右边部分*/
+.right{
+  float:left;
+  
+}
+.right>div{
+    width: 850px;
+    height:500px;
+    padding-top: 20px;
+    background-color: rgb(253, 250, 250);
+    box-shadow: 5px 5px 5px #888888;
+    margin-left: 50px;
+    opacity: 0.5;
+}
+.right>div>h3{
+    display: inline-block;
+    padding-left:20px;
+}
+
+
+/*脚部*/
+.footer{
+    clear: both;
+   position: relative;
+   top:30px;
+}

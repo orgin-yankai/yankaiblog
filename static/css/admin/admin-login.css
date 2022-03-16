@@ -1,0 +1,87 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+		background-image: url("/static/images/xingkong.jpeg");
+		opacity: 0.9;
+}
+.all{
+	width:700px;
+	/*height:800px;*/
+	/*height:200px;*/
+	margin: 50px auto;
+}
+
+
+
+/*
+	导航部分
+*/
+
+
+.header{
+	width:100%;
+	height:110px;
+	/*background:rgb(0,0,0);*/
+	background-color: white;
+	opacity:0.9;
+	/*border:0.4px solid gray;*/
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;	
+}
+.header>.nav{
+	padding-top: 48px;
+}
+.header>.nav li{
+		list-style: none;
+		text-align: center;
+}
+.header>.nav li>a{
+	text-decoration: none;
+	color:black;
+}
+
+
+
+
+
+	
+/*
+	主题部分
+*/
+.main{
+	width:700px;
+	/*height:800px;*/
+	height:520px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+	background-color:white;
+	position:relative
+}
+.main>.login{
+	text-align: center;
+	position:relative;
+	top:50px;
+}
+.main>.login>form>.input2,.input1{
+	width:300px;
+	height:30px;
+	margin-top:60px;
+}
+.main>.login>form>.submit,.reset{
+	margin-top:30px;
+	margin-left: 50px;
+	width:50px;
+	height:30px;
+	border:none;
+	color:gray;
+	background-color:#faf9f9;
+}
+.main>.login>form>.submit:hover,.reset:hover{
+	color:#D3D3D3;
+}
+.main>.login .span{
+	display: inline-block;
+	padding-left: 20px;	
+}

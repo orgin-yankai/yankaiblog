@@ -1,0 +1,53 @@
+/*左边部分*/
+.left{
+    width:500px;
+    height:300px;
+    margin-left:20px;
+    /*background-color: gray;*/
+    float:right;
+   
+}
+
+.left>div{
+    width:500px;
+    height:300px;
+    background: #1f1f1f;
+    margin-top:26px;
+}
+.left>div>p{
+    background: #191818;
+    color:white;
+    height:50px;
+}
+.left>div>a{
+    display:inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.left>div>p>span{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.left>div>ul>li{
+    list-style: none;
+    float: left;
+    margin-left:20px;
+}
+.left>div>.left-ul>li>a{
+    color:black;
+    text-decoration: none;
+    font-size: 33.6677px;
+}
+.left>.left-div2>ul>li{
+    list-style: none;
+     margin-top: 10px;
+}
+.left>.left-div2>ul>li>a{
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+}

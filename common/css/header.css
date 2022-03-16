@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+
+     background-image:url("/static/images/12.jpg");
+}
+/*头部*/
+.header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+     z-index: 9999;
+    background-color: #080808;
+}
+.header>.header-ul{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header>.header-ul>ul{
+    margin-top: 20px;
+}
+.header>.header-ul li{
+    list-style: none;
+    float:left;
+    margin-left: 20px;
+}
+.header>.header-ul li>a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
