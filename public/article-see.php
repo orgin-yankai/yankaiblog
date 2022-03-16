@@ -7,8 +7,7 @@
     $row = mysqli_fetch_assoc($result);
 
     $sql = "update article set `browse`=`browse`+1 where `id` = '{$id}'";
-    $update = mysqli_query($conn,$sql);
-    mysqli_fetch_assoc($update);
+    mysqli_query($conn,$sql);
 
     $sql = "select `id`,`title` from article   order by `browse` desc  limit 7";
     $read = mysqli_query($conn,$sql);
