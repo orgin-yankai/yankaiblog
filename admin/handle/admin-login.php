@@ -6,7 +6,7 @@ $password = trim($_POST['password']);
 
 $sql = "select *from admin where `name` = '{$name}'";
 $result = mysqli_query($conn,$sql);
-$row=mysqli_fetch_assoc($result); 
+$row=mysqli_fetch_assoc($result);
 if(empty($name) && empty($password) || (empty($name) || empty($password))){
     $arr["code"] = 0;
     $arr["fail"] = "失败";
